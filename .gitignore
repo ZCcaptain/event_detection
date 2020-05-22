@@ -1,0 +1,21 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+*.idea
+*.vscode
+*.jpg
+*.npy
+1/
+2/
+3/
+4/
+*.tar.gz
+*.txt
+!data/ace/dicts/*
+!data/ace/*.txt
+heatmap/
+data/ace/embeddings/*
+data/ace/saved_models/*
+

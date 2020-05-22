@@ -1,0 +1,26 @@
+{
+  "emb_dim": 200,
+  "max_l": 40,
+  "n_class": 35,
+  "n_ent": 55,
+  "dim_ent": 50,
+  "L2_weight": 0.00001,
+  "L1_weight": 0.000001,
+  "epoch_num": 100,
+  "alpha": 1,
+  "batch_size": 100,
+  "data_root": "data",
+  "train": "corpus_train.txt",
+  "test": "corpus_test.txt",
+  "test_triger": "corpus_trigger_test.txt",
+  "dataset": "ace",
+  "gpu": 0,
+  "bidirectional": true,
+  "threshold": 0.5,
+  "eval_batch": 1000,
+  "use_gcn": true,
+  "save_model": "max",
+  "model_dir": "saved_models",
+  "save_model_threshold": 0.7
+}
+
